@@ -58,11 +58,24 @@ document.addEventListener('scroll', () => {
     }
 });
 
+// Make job history slowly fade to visible as the windows scrolls down
+const about = document.querySelector('#about');
+const aboutHeight = about.getBoundingClientRect().height;
+const aboutHeightFixed = aboutHeight/1.5;
+
+console.log('fixed: ' + aboutHeightFixed);
+
+document.addEventListener('scroll', () => { 
+    const jobHistory = document.querySelector('.about__jobs');
+    if (window.scrollY > aboutHeightFixed) {
+        jobHistory.style.opacity = window.scrollY / aboutHeightFixed;
+    }
+});
+
+
 // Show Skill's progress bar when reach half of Skill section
 const skills = document.querySelector('#body');
 const skillsHeight = skills.getBoundingClientRect().height;
-
-console.log(skillsHeight);
 
 document.addEventListener('scroll', () => { 
     // console.log(window.scrollY);
