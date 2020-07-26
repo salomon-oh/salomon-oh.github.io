@@ -244,6 +244,11 @@ button {
     font-weight: var(--weight-semi-bold);
 }
 
+.about__jobs {
+    opacity: 0;
+    transition: all 500ms ease-in;
+}
+
 .job {
     display: flex;
     align-items: center;
