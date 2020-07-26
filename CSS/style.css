@@ -118,6 +118,7 @@ button {
 .navbar__logo {
     font-size: var(--font-medium);
     font-weight: var(--weight-semi-bold);
+    margin-left: 16px;
 }
 
 .navbar__menu {
