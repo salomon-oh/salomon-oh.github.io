@@ -589,8 +589,7 @@ h3.fadeIn {
     }
 
     #home {
-        height: 100vh;
-        border-bottom: none;
+        height: 101vh;
     }
 
     /* About */
