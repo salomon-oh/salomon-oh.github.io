@@ -6,10 +6,15 @@
         <meta name="description" content="Salomon's Resume & Portfolio">
         <meta name="author" content="Salomon Oh">
         <title>Salomon Oh | Portfolio</title>
-        <script src="https://kit.fontawesome.com/f3c5df6a8d.js" crossorigin="anonymous"></script>
+        
         <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+        <script src="https://kit.fontawesome.com/f3c5df6a8d.js" crossorigin="anonymous"></script>
         <script src="./JS/main.js" defer></script>
 
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js" defer></script>
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js" defer></script>
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js" defer></script>
+        <script type="text/javascript" src="./JS/lazy.js" defer></script>
     </head>
     <body id="body">
         <!--Navigation Bar-->
@@ -41,8 +46,8 @@
 
         <!-- About -->
         <section id="about" class="section section__container">
-            <h1>About Me</h1>
-            <p>Technology enthusiast since childhood, i'm graduated in System Information by University of São Paulo and working on IT area since 2017.</br>As a Front-End lover, i'm always trying to learn more about the Web Development and new technologies.</p>
+            <h1 class="fadeIn" data-loader="show">About Me</h1>
+            <h3 class="fadeIn" data-loader="show">Technology enthusiast since childhood, i'm graduated in System Information by University of São Paulo and working on IT area since 2017.</br>As a Front-End lover, i'm always trying to learn more about the Web Development and new technologies.</h3>
             <div class="about__majors">
                 <div class="major">
                     <div class="major__icon">
@@ -65,7 +70,7 @@
                     <div class="major__title">JavaScript</div>
                 </div>
             </div>
-            <div class="about__jobs">
+            <div class="about__jobs fadeLeft" data-loader="show">
                 <div class="job">
                     <img src="./images/JOB logo/lg-cns-logo.png" alt="LG CNS logo" class="job__logo">
                     <div class="job__description">
@@ -100,9 +105,9 @@
         <!-- Skills -->
         <section id="skills" class="section">
             <div class="section__container">
-                <h1>Skills</h1>
-                <h2>Skills & Attributes</h2>
-                <p>Experience with system management and web development. Passion for learning new technologies. Capable of working within a team environment and independently. Ability to plan and time schedule, work under strict time pressure and adapt quickly when needed.</p>
+                <h1 class="fadeIn" data-loader="show">Skills</h1>
+                <h2 class="fadeIn" data-loader="show">Skills & Attributes</h2>
+                <h3 class="fadeIn" data-loader="show">Experience with system management and web development. Passion for learning new technologies. Capable of working within a team environment and independently. Ability to plan and time schedule, work under strict time pressure and adapt quickly when needed.</h3>
                 <div class="skillset">
                     <div class="skillset__left">
                         <h3 class="skillset__title">SKILLS</h3>
@@ -112,7 +117,7 @@
                                     <span>100%</span>
                                 </div>
                                 <div class="skill__bar">
-                                    <div class="skill__bar__value" style="width: 100%;"></div>
+                                    <div class="skill__bar__value fadeIn" data-loader="show" style="width: 100%;"></div>
                                 </div>
                             </div>
                             <div class="skill">
@@ -121,7 +126,7 @@
                                     <span>100%</span>
                                 </div>
                                 <div class="skill__bar">
-                                    <div class="skill__bar__value" style="width: 100%;"></div>
+                                    <div class="skill__bar__value fadeIn" data-loader="show" style="width: 100%;"></div>
                                 </div>
                             </div>
                             <div class="skill">
@@ -130,7 +135,7 @@
                                     <span>80%</span>
                                 </div>
                                 <div class="skill__bar">
-                                    <div class="skill__bar__value" style="width: 80%;"></div>
+                                    <div class="skill__bar__value fadeIn" data-loader="show" style="width: 80%;"></div>
                                 </div>
                             </div>
                             <div class="skill">
@@ -139,7 +144,7 @@
                                     <span>80%</span>
                                 </div>
                                 <div class="skill__bar">
-                                    <div class="skill__bar__value" style="width: 80%;"></div>
+                                    <div class="skill__bar__value fadeIn" data-loader="show" style="width: 80%;"></div>
                                 </div>
                             </div>
                             <div class="skill">
@@ -148,7 +153,7 @@
                                     <span>70%</span>
                                 </div>
                                 <div class="skill__bar">
-                                    <div class="skill__bar__value" style="width: 70%;"></div>
+                                    <div class="skill__bar__value fadeIn" data-loader="show" style="width: 70%;"></div>
                                 </div>
                             </div>
                             <div class="skill">
@@ -157,7 +162,7 @@
                                     <span>70%</span>
                                 </div>
                                 <div class="skill__bar">
-                                    <div class="skill__bar__value" style="width: 70%;"></div>
+                                    <div class="skill__bar__value fadeIn" data-loader="show" style="width: 70%;"></div>
                                 </div>
                             </div>
                     </div>
@@ -183,7 +188,7 @@
                                         <span>100%</span>
                                     </div>
                                     <div class="lang__fluency__bar">
-                                        <div class="lang__fluency__bar--progress" style="width: 100%;"></div>
+                                        <div class="lang__fluency__bar--progress fadeIn" data-loader="show" style="width: 100%;"></div>
                                     </div>
                                 </div>
                                 <div class="lang">
@@ -192,7 +197,7 @@
                                         <span>100%</span>
                                     </div>
                                     <div class="lang__fluency__bar">
-                                        <div class="lang__fluency__bar--progress" style="width: 100%;"></div>
+                                        <div class="lang__fluency__bar--progress fadeIn" data-loader="show" style="width: 100%;"></div>
                                     </div>
                                 </div>
                                 <div class="lang">
@@ -201,7 +206,7 @@
                                         <span>80%</span>
                                     </div>
                                     <div class="lang__fluency__bar">
-                                        <div class="lang__fluency__bar--progress" style="width: 80%;"></div>
+                                        <div class="lang__fluency__bar--progress fadeIn" data-loader="show" style="width: 80%;"></div>
                                     </div>
                                 </div>
                                 <div class="lang">
@@ -210,7 +215,7 @@
                                         <span>50%</span>
                                     </div>
                                     <div class="lang__fluency__bar">
-                                        <div class="lang__fluency__bar--progress" style="width: 50%;"></div>
+                                        <div class="lang__fluency__bar--progress fadeIn" data-loader="show" style="width: 50%;"></div>
                                     </div>
                                 </div>
                             </div>
@@ -225,8 +230,8 @@
         <!-- My Work -->
         <section id="work" class="section">
             <div class="section__container">
-                <h1>My Work</h1>
-                <h3>Projects</h3>
+                <h1 class="fadeIn" data-loader="show">My Work</h1>
+                <h3 class="fadeIn" data-loader="show">Projects</h3>
                 <div class="work__projects">
                     <a href="#" class="projects" target="blank">
                         <img src="./images/project-img.png" alt="Project 1" class="projects__img">
@@ -277,24 +282,24 @@
         <!-- Testimonials -->
         <section id="testimonials" class="section">
             <div class="section__container">
-                <h1>Testimonials</h1>
-                <h3>See what they say about me</h3>
+                <h1 class="fadeIn" data-loader="show">Testimonials</h1>
+                <h3 class="fadeIn" data-loader="show">See what they say about me</h3>
                 <div class="testimonials">
-                    <div class="testimonial">
+                    <div class="testimonial  fadeDown" data-loader="show">
                         <img src="./images/avatar_photo.JPG" alt="Avatar 1" class="testimonial__avatar">
                         <div class="testimonial__speech__bubble">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                             <p class="name"><a href="#" target="blank">NAME</a> | Company</p>
                         </div>
                     </div>
-                    <div class="testimonial">
+                    <div class="testimonial fadeDown" data-loader="show">
                         <div class="testimonial__speech__bubble">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                             <p class="name"><a href="#" target="blank">NAME</a> | Company</p>
                         </div>
                         <img src="./images/avatar_photo.JPG" alt="Avatar 1" class="testimonial__avatar">
                     </div>
-                    <div class="testimonial">
+                    <div class="testimonial fadeDown" data-loader="show">
                         <img src="./images/avatar_photo.JPG" alt="Avatar 1" class="testimonial__avatar">
                         <div class="testimonial__speech__bubble">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>

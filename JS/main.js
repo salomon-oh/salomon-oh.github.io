@@ -12,7 +12,7 @@ document.addEventListener('scroll', () => {
     }
 });
 
-// Havbar toggle button for small screen
+// Navbar toggle button for small screen
 const navbarToogleBtn = document.querySelector('.navbar__toggle-btn')
 navbarToogleBtn.addEventListener('click', () => {
     navbarMenu.classList.toggle('open');
@@ -57,21 +57,6 @@ document.addEventListener('scroll', () => {
         arrowUpBtn.classList.remove('visible');
     }
 });
-
-// Make job history slowly fade to visible as the windows scrolls down
-const about = document.querySelector('#about');
-const aboutHeight = about.getBoundingClientRect().height;
-const aboutHeightFixed = aboutHeight/1.5;
-
-console.log('fixed: ' + aboutHeightFixed);
-
-document.addEventListener('scroll', () => { 
-    const jobHistory = document.querySelector('.about__jobs');
-    if (window.scrollY > aboutHeightFixed) {
-        jobHistory.style.opacity = window.scrollY / aboutHeightFixed;
-    }
-});
-
 
 // Show Skill's progress bar when reach half of Skill section
 const skills = document.querySelector('#body');
