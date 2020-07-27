@@ -29,3 +29,47 @@ $(function() {
         }
     });
 });
+
+$(function() {
+    $('.fadeIn__bar__hundred').lazy({
+        threshold: 0,
+        show: function(element, response) {
+            element.css('opacity', 1);
+            element.css('width', '100%');
+            response(true);
+        }
+    });
+});
+
+$(function() {
+    $('.fadeIn__bar__eighty').lazy({
+        threshold: 0,
+        show: function(element, response) {
+            element.css('opacity', 1);
+            element.css('width', '80%');
+            response(true);
+        }
+    });
+});
+
+$(function() {
+    $('.fadeIn__bar__seventy').lazy({
+        threshold: 0,
+        show: function(element, response) {
+            element.css('opacity', 1);
+            element.css('width', '70%');
+            response(true);
+        }
+    });
+});
+
+$(function() {
+    $('.fadeIn__bar__fifty').lazy({
+        threshold: 0,
+        show: function(element, response) {
+            element.css('opacity', 1);
+            element.css('width', '50%');
+            response(true);
+        }
+    });
+});

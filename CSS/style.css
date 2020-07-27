@@ -262,7 +262,7 @@ h3.fadeIn {
     display: flex;
     align-items: center;
     height: 70px;
-    border-top: 1px solid var(--color-light-grey);
+    border-top: 1px solid #ebebeb;
 }
 
 .job__logo {
@@ -325,6 +325,7 @@ h3.fadeIn {
     height: 3px;
     background-color: var(--color-dark-yellow);
     opacity: 0;
+    width: 0;
     transition: all 1000ms ease-in-out;
 }
 
@@ -365,8 +366,9 @@ h3.fadeIn {
 .lang__fluency__bar--progress {
     height: 3px;
     background-color: var(--main-dark-color);
+    width: 0;
     opacity: 0;
-    transition: all 1000ms ease-in-out;
+    transition: all 1500ms ease-in-out;
 }
 
 /* Work */
@@ -589,7 +591,8 @@ h3.fadeIn {
     }
 
     #home {
-        height: 101vh;
+        height: 100vh;
+        /* border-bottom: none; */
     }
 
     /* About */
