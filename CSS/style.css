@@ -584,7 +584,7 @@ h3.fadeIn {
     background: rgba(255, 255, 255, 0.2);
     animation: animate 20s linear infinite;
     bottom: -150px;
-    border-radius: 45%;
+    border-radius: 20%;
 }
 
 .box-area li:nth-child(1) {
