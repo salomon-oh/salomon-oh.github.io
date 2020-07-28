@@ -30,11 +30,12 @@ $(function() {
     });
 });
 
+// Fade In Skills bars
 $(function() {
-    $('.fadeIn__bar__hundred').lazy({
+    $('.fadeIn__bar__100').lazy({
         threshold: 0,
         show: function(element, response) {
-            element.css('opacity', 1);
+            // element.css('opacity', 1);
             element.css('width', '100%');
             response(true);
         }
@@ -42,10 +43,10 @@ $(function() {
 });
 
 $(function() {
-    $('.fadeIn__bar__eighty').lazy({
+    $('.fadeIn__bar__80').lazy({
         threshold: 0,
         show: function(element, response) {
-            element.css('opacity', 1);
+            // element.css('opacity', 1);
             element.css('width', '80%');
             response(true);
         }
@@ -53,10 +54,10 @@ $(function() {
 });
 
 $(function() {
-    $('.fadeIn__bar__seventy').lazy({
+    $('.fadeIn__bar__70').lazy({
         threshold: 0,
         show: function(element, response) {
-            element.css('opacity', 1);
+            // element.css('opacity', 1);
             element.css('width', '70%');
             response(true);
         }
@@ -64,10 +65,21 @@ $(function() {
 });
 
 $(function() {
-    $('.fadeIn__bar__fifty').lazy({
+    $('.fadeIn__bar__60').lazy({
         threshold: 0,
         show: function(element, response) {
-            element.css('opacity', 1);
+            // element.css('opacity', 1);
+            element.css('width', '60%');
+            response(true);
+        }
+    });
+});
+
+$(function() {
+    $('.fadeIn__bar__50').lazy({
+        threshold: 0,
+        show: function(element, response) {
+            // element.css('opacity', 1);
             element.css('width', '50%');
             response(true);
         }
