@@ -58,24 +58,6 @@ document.addEventListener('scroll', () => {
     }
 });
 
-// Show Skill's progress bar when reach half of Skill section
-const skills = document.querySelector('#body');
-const skillsHeight = skills.getBoundingClientRect().height;
-
-document.addEventListener('scroll', () => { 
-    // console.log(window.scrollY);
-    // if (window.scrollY == skillsHeight/2) {
-    //     const skillsBarProgress = skills.querySelectorAll('.skill__bar__value');
-    //     console.log(skillsBarProgress);
-
-    //     for (var i = 0; i < skillsBarProgress.length; i++) {
-    //         skillsBarProgress[i].classList.add('filled');
-    //     }
-    // }
-});
-
-
-
 //Scroll to reffered section based on selector
 function scrollIntoView (selector) {
     const scrollTo = document.querySelector(selector);
