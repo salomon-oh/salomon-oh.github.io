@@ -414,7 +414,7 @@ h3.fadeIn {
     height: 100%;
     opacity: 0;
     border-radius: var(--size-border-radius);
-    transform: translateY(-10px);
+    /* transform: translateY(-10px); */
     transition: all var(--animation-duration) ease-in;
 }
 
